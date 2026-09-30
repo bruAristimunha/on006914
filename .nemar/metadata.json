@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Visual Naming EC",
-  "description": "This dataset contains intracranial EEG recordings from 110 individuals who performed a visual-naming task, with electrode coordinates provided in MNI-305 space. It was collected to support analyses of effective connectivity underlying speech and language processing, as reported by Kochi et al. (2025). Each recording is annotated with event codes marking stimulus and response onsets.",
+  "description": "This dataset contains intracranial EEG (iEEG) recordings from 110 individuals performing a visual naming task. Electrode coordinates are provided in MNI-305 space, and events mark stimulus onset and response onset. The data were used in an analysis of whole-brain, millisecond-scale effective connectivity atlases of speech.",
   "methods_description": "Intracranial EEG was recorded from 110 subjects performing a visual-naming task. Each EDF file includes event codes marking stimulus onset (401) and response onset (501). Electrode coordinates were localized in MNI-305 standardized space.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -26,18 +26,15 @@
       "term": "visual naming"
     },
     {
-      "term": "effective connectivity"
-    },
-    {
       "term": "speech"
     },
     {
-      "term": "electrode localization"
+      "term": "effective connectivity"
     },
     {
-      "term": "Epilepsy",
+      "term": "Electrocorticography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
@@ -68,7 +65,7 @@
     "ieeg"
   ],
   "sizes": [
-    "18.8 GB (354 files)"
+    "17.54 GB (354 files)"
   ],
   "formats": [
     ".edf",
